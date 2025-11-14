@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas | GGPROYECT</title>
+    <link rel="stylesheet" href="Css_listas.css">
+   
+</head>
+<body>
+    <header>
+        <div class="logo">GGPROYECT</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="lista_Videojuegos.html">Videojuegos</a>
+            <a href="peliculas.html" style="color: #ff00ff;">Películas</a>
+            <a href="login.html">Registro</a>
+        </nav>
+    </header>
+    
+    <div class="main-content">
+        <h2 class="section-title">Catálogo de Películas</h2>
+        
+        <div class="games-grid">
+            <div class="game-card">
+                <h3 class="game-title">El Padrino</h3>
+                <p class="game-description">La épica saga de la familia Corleone, un poderoso clan de la mafia italiana en Nueva York, dirigida por el patriarca Vito Corleone.</p>
+                <div class="game-rating">★★★★★ 4.9/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Pulp Fiction</h3>
+                <p class="game-description">Varias historias criminales se entrelazan en Los Ángeles, siguiendo a dos sicarios, un boxeador y una pareja de atracadores.</p>
+                <div class="game-rating">★★★★★ 4.8/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">El Señor de los Anillos: El Retorno del Rey</h3>
+                <p class="game-description">La conclusión épica de la trilogía donde Frodo se acerca al Monte del Destino mientras Aragorn se prepara para la batalla final.</p>
+                <div class="game-rating">★★★★★ 4.9/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Origen</h3>
+                <p class="game-description">Un ladrón que roba secretos del subconsciente mediante el uso de tecnología de sueños recibe la tarea inversa: plantar una idea.</p>
+                <div class="game-rating">★★★★☆ 4.7/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Forrest Gump</h3>
+                <p class="game-description">La vida de Forrest Gump, un hombre con un coeficiente intelectual bajo pero un corazón enorme, que vive eventos históricos cruciales.</p>
+                <div class="game-rating">★★★★★ 4.8/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Matrix</h3>
+                <p class="game-description">Un hacker descubre que su realidad es una simulación creada por máquinas inteligentes y se une a la rebelión humana.</p>
+                <div class="game-rating">★★★★★ 4.7/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Interestelar</h3>
+                <p class="game-description">Un grupo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia humana.</p>
+                <div class="game-rating">★★★★☆ 4.6/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">El Caballero de la Noche</h3>
+                <p class="game-description">Batman se enfrenta al Joker, un criminal psicópata que pretende sumir a Ciudad Gótica en la anarquía.</p>
+                <div class="game-rating">★★★★★ 4.9/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Titanic</h3>
+                <p class="game-description">Una joven de alta sociedad y un artista pobre se enamoran a bordo del lujoso pero desafortunado RMS Titanic.</p>
+                <div class="game-rating">★★★★☆ 4.5/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Parásitos</h3>
+                <p class="game-description">Los miembros de una familia pobre se infiltran en el hogar de una familia adinerada, desencadenando eventos inesperados.</p>
+                <div class="game-rating">★★★★★ 4.8/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Gladiador</h3>
+                <p class="game-description">Un general romano traicionado desciende a la esclavitud y se convierte en gladiador para vengarse del corrupto emperador.</p>
+                <div class="game-rating">★★★★☆ 4.7/5</div>
+            </div>
+            
+            <div class="game-card">
+                <h3 class="game-title">Dune</h3>
+                <p class="game-description">Paul Atreides lidera a los Fremen en una rebelión contra el emperador mientras busca controlar el planeta desértico Arrakis.</p>
+                <div class="game-rating">★★★★☆ 4.4/5</div>
+            </div>
+        </div>
+        
+        <div class="pc-recommendations">
+            <h2 class="section-title">Películas Recomendadas para Ti</h2>
+            
+            <div class="specs-form">
+                <div class="form-group">
+                    <label for="genre">Género Favorito</label>
+                    <select id="genre" class="form-control">
+                        <option value="">Selecciona un género</option>
+                        <option value="accion">Acción</option>
+                        <option value="drama">Drama</option>
+                        <option value="ciencia_ficcion">Ciencia Ficción</option>
+                        <option value="comedia">Comedia</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="fantasia">Fantasía</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="duration">Duración Preferida</label>
+                    <select id="duration" class="form-control">
+                        <option value="">Cualquier duración</option>
+                        <option value="corta">Menos de 90 min</option>
+                        <option value="media">90-150 min</option>
+                        <option value="larga">Más de 150 min</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="year">Año de Estreno</label>
+                    <select id="year" class="form-control">
+                        <option value="">Cualquier año</option>
+                        <option value="nuevas">2010-2024</option>
+                        <option value="clasicas">1990-2009</option>
+                        <option value="antiguas">Antes de 1990</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rating">Calificación Mínima</label>
+                    <select id="rating" class="form-control">
+                        <option value="">Cualquier calificación</option>
+                        <option value="4.5">4.5+ estrellas</option>
+                        <option value="4.0">4.0+ estrellas</option>
+                        <option value="3.5">3.5+ estrellas</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button class="submit-btn">Ver Películas Recomendadas</button>
+            
+            <div class="recommended-games">
+                <h3 style="color: #00ffff; margin-bottom: 15px;">Películas que podrían gustarte:</h3>
+                <ul class="recommended-list">
+                    <li>El Padrino - ✅ Altamente recomendada</li>
+                    <li>Pulp Fiction - ✅ Basado en tus preferencias</li>
+                    <li>El Señor de los Anillos - ⚠ Duración larga</li>
+                    <li>Origen - ✅ Coincide con tu género favorito</li>
+                    <li>Matrix - ✅ Perfecta para ti</li>
+                    <li>Interestelar - ⚠ Temática compleja</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

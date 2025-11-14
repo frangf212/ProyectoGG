@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | GGPROYECT</title>
+    
+    <style>
+        /* Estilos base tomados de CSS.css */
+        body {
+            font-family: Arial, sans-serif; /* Fuente base */
+            background-color: blue;
+            color: #e0e0ff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(0, 79, 107, 0.2) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(158, 25, 129, 0.2) 0%, transparent 20%),
+                linear-gradient(to bottom, #0a0a16, #000000);
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #111125;
+            padding: 20px;
+            text-align: left;
+            border-bottom: 2px solid #ff00ff;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        /* ESTILO PARA TEXTOS DESTACADOS (simulando la fuente de "Crear Cuenta") */
+        /* Se usa una fuente de tipo Serif (como la de la imagen) y se aplica el efecto neón. */
+        .highlight-text {
+            font-family: "Times New Roman", Times, serif; /* Fuente más formal/seriada */
+            color: #ffffff; /* Color de base blanco */
+            /* Efecto neón: Sombra blanca suave y sombra rosa/magenta intensa */
+            text-shadow: 
+                0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ff00ff,
+                0 0 20px #ff00ff,
+                0 0 25px #ff00ff;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+        
+        /* Aplicación del estilo a elementos clave */
+        .logo, .hero-title, .simple-content-box h2 {
+            /* Aplica el estilo de fuente y neón a los textos principales */
+            color: #ffffff; /* Asegura el color blanco de base */
+            text-shadow: 
+                0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ff00ff,
+                0 0 20px #ff00ff,
+                0 0 25px #ff00ff;
+            font-family: "Times New Roman", Times, serif;
+        }
+        /* Fin de aplicación de estilo destacado */
+
+        /* Estilos de layout para centrar el contenido (según el boceto) */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+            padding: 40px 20px;
+            min-height: calc(100vh - 120px); 
+        }
+        
+        .hero-section {
+            margin-bottom: 30px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #00ffff;
+            font-family: Arial, sans-serif; /* Deja el subtítulo en fuente simple */
+            text-shadow: none;
+        }
+        
+        /* Contenedor que simula el área central del boceto */
+        .simple-content-box {
+            background: #151530; 
+            border: 1px solid #ff00ff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 90%;
+            max-width: 800px; 
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+            margin-top: 30px;
+        }
+
+        .simple-content-box h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        /* Estilos de la barra de búsqueda */
+        .search-container {
+            margin-bottom: 25px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-input {
+            width: 80%;
+            padding: 12px;
+            background: #0a0a1a;
+            border: 1px solid #00ffff;
+            border-right: none;
+            border-radius: 4px 0 0 4px;
+            color: #fff;
+            font-size: 1rem;
+            box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+            font-family: Arial, sans-serif;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #ff00ff;
+            box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
+        }
+
+        .search-button {
+            padding: 12px 20px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: #000;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+        }
+        
+        .search-button:hover {
+            opacity: 0.9;
+        }
+        
+        /* Estilos del botón/enlace para consistencia visual */
+        .submit-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 15px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .submit-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Footer styles */
+        footer {
+            background: #111125;
+            padding: 20px;
+            border-top: 2px solid #00ffff;
+            text-align: center;
+        }
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer .logo {
+             padding: 0;
+             margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">GGPROYECT</div>
+    </header>
+    
+    <div class="main-content">
+        <div class="hero-section">
+            <h1 class="hero-title">Bienvenido a GGPROYECT</h1>
+            <p class="hero-subtitle">Tu plataforma definitiva para descubrir contenido</p>
+        </div>
+        
+        <div class="simple-content-box">
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Buscar videojuegos, películas, o categorías...">
+                <button class="search-button">Buscar</button>
+            </div>
+            
+            <h2>Área de Contenido Principal</h2>
+            <p>Este es el inicio de la página. El espacio a continuación representa la sección principal para mostrar videojuegos y películas.</p>
+            
+            <div style="margin-top: 20px; border: 1px solid #00ffff; padding: 15px; border-radius: 4px;">
+                <h3 class="highlight-text" style="font-size: 1.5rem; margin-top: 0;">Bloque de Contenido Destacado</h3>
+                <p>Aquí es donde las listas y tarjetas de contenido irían ubicadas.</p>
+                <div class="submit-btn">Comenzar a Explorar</div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="logo">GGPROYECT</div>
+            <p>&copy; 2025 GGPROYECT. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

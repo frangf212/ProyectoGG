@@ -1,0 +1,99 @@
+ body {
+            background-color: blue;
+            color: #e0e0ff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(0, 79, 107, 0.2) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(158, 25, 129, 0.2) 0%, transparent 20%),
+                linear-gradient(to bottom, #0a0a16, #000000);
+        }
+         header {
+            background: #111125;
+            padding: 20px;
+            text-align: left;
+            border-bottom: 2px solid #ff00ff;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+        
+        .register-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        
+        .register-box {
+            background: #151530;
+            border: 1px solid #ff00ff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+        }
+        
+        .register-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+            color: #fff;
+            text-shadow: 0 0 5px #ff00ff;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            background: #0a0a1a;
+            border: 1px solid #00ffff;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 1rem;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: #ff00ff;
+            box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .submit-btn:hover {
+            opacity: 0.9;
+        }
+        
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .login-link a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+        
+        

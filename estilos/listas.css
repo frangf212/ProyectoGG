@@ -28,7 +28,11 @@
             text-shadow: 0 0 10px #ff00ff;
             text-align: left;
         }
-        
+
+        h3{
+            color: #00ffff; margin-bottom: 15px;
+
+        }
         nav {
             margin-bottom: 50px;
             text-align: right;

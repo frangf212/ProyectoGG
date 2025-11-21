@@ -1,5 +1,5 @@
   body {
-            font-family: Arial, sans-serif; /* Fuente base */
+            font-family: Arial, sans-serif; 
             background-color: blue;
             color: #e0e0ff;
             line-height: 1.6;
@@ -28,6 +28,9 @@
             color: #fff;
             text-shadow: 0 0 10px #ff00ff;
             text-align: left;
+        }
+        h3{
+            font-size: 1.5rem; margin-top: 0;
         }
 
          nav {
@@ -155,9 +158,9 @@
         }
         
         .highlight-text {
-            font-family: "Times New Roman", Times, serif; /* Fuente más formal/seriada */
-            color: #ffffff; /* Color de base blanco */
-            /* Efecto neón: Sombra blanca suave y sombra rosa/magenta intensa */
+            font-family: "Times New Roman", Times, serif; 
+            color: #ffffff; 
+           
             text-shadow: 
                 0 0 5px #ffffff,
                 0 0 10px #ffffff,
@@ -186,7 +189,7 @@
         .hero-subtitle {
             font-size: 1.2rem;
             color: #00ffff;
-            font-family: Arial, sans-serif; /* Deja el subtítulo en fuente simple */
+            font-family: Arial, sans-serif; 
             text-shadow: none;
         }
 

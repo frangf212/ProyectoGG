@@ -42,3 +42,15 @@ llame la atención, pero no sabes si tan siquiera será compatible con tu equipo
 
 Por el lado de las películas ofrecemos una experiencia para gente que realmente disfrute del cine, invitando al usuario a compartir sus conocimientos, gustos e incluso opiniones sobre ciertas obras. Creando una información bastante detallada sobre cualquier película o cortometraje que te genere curiosidad.</p>
 
+
+<h2>Conclusión</h2>
+
+
+<p>GGPROYECT (GODGAMES) nace para solucionar la ineficiencia de las guías y recomendaciones actuales. Nuestra propuesta es una página web precisa y concisa que supera a la competencia al evitar textos extensos y vídeos tediosos, ofreciendo soluciones directas y fáciles de asimilar (instrucciones, imágenes y vídeos puntuales).
+Nuestra diferencia clave reside en la utilidad avanzada:
+
+Videojuegos: Implementamos IA para escanear las especificaciones del usuario y ofrecer recomendaciones 100% compatibles, eliminando la frustración del hardware.
+
+Películas: Creamos una experiencia comunitaria donde los cinéfilos pueden encontrar y compartir explicaciones de tramas, curiosidades, y participar en un foro detallado para enriquecer la valoración y el entendimiento de cada obra.
+
+En definitiva, GGPROYECT busca convertirse en el referente de la eficiencia, facilitando la elección y la solución de dudas para gamers y amantes del cine, maximizando su tiempo y disfrute.</p>

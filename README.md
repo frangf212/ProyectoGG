@@ -26,7 +26,7 @@ Por otro lado, contemplamos las situaciones en las que quieres ver una película
 <p>Abarcamos la mejora y la facilitación de la experiencia de los usuarios y ofrecerles recomendaciones.</p>
 
 
-<h2>Objetivos.<h2>
+<h2>Objetivos.</h2>
 
 
 <p>Como objetivos específicos planteamos realizar una página web que ayude a los usuarios a alcanzar retos o logros en diferentes títulos mediante guías numeradas, imágenes y videos. Ofrecer recomendaciones basadas en las características de sus equipos con la ayuda de una IA.

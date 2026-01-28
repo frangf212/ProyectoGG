@@ -97,7 +97,7 @@
             box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
         }
         
-        .submit-btn {
+        .submit-btn-principal {
             width: 100%;
             padding: 12px;
             background: linear-gradient(45deg, #ff00ff, #00ffff);
@@ -108,6 +108,7 @@
             font-size: 1rem;
             cursor: pointer;
             margin-top: 10px;
+            opacity: 0.9;
         }
 
          .submit-btn2 {
@@ -124,18 +125,20 @@
             cursor: pointer;
             margin-top: 15px;
             font-family: Arial, sans-serif;
+          
+        }
+        .submit-btn2:hover {
+            opacity: 0.9;
+        }
+         
+        .submit-btn-principal:hover {
+            opacity: 1;
         }
 
         
         
 
-        .submit-btn-principal:hover  {
-            opacity: 0.9;
-        }
-
-        .submit-btn:hover  {
-            opacity: 0.9;
-        }
+        
         
         .login-link {
             text-align: center;

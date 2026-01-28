@@ -14,9 +14,9 @@
 
          header {
             background: #111125;
-            padding: 20px;
+            padding: 20px 40px;
             border-bottom: 2px solid #ff00ff;
-           
+            position: relative;
             align-items: center;
             
         }
@@ -125,8 +125,15 @@
             margin-top: 15px;
             font-family: Arial, sans-serif;
         }
+
         
-        .submit-btn2:hover {
+        
+
+        .submit-btn-principal:hover  {
+            opacity: 0.9;
+        }
+
+        .submit-btn:hover  {
             opacity: 0.9;
         }
         
@@ -226,7 +233,7 @@
         .search-container {
             margin-bottom: 25px;
             width: 100%;
-            display: flex;
+            flex: auto;
             justify-content: center;
         }
 

@@ -17,10 +17,41 @@
         }
         header {
             background: #111125;
-            padding: 20px;
+            padding: 20px 40px;
             border-bottom: 2px solid #ff00ff;
-        }
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+}
+
+.buscador-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#buscador {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 2px solid #ff00ff;
+    background-color: #0b0b1f;
+    color: #ffffff;
+    outline: none;
+    width: 300px;
+    transition: 0.3s;
+}
+
+#buscador::placeholder {
+    color: #bbbbbb;
+}
+
+#buscador:focus {
+    box-shadow: 0 0 10px #ff00ff;
+}
         
+    
         .logo {
             font-size: 2rem;
             font-weight: bold;

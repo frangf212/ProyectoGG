@@ -238,6 +238,13 @@
             width: 100%;
             flex: auto;
             justify-content: center;
+
+        }
+        .search-container-down{
+            margin-top: 20px; 
+            border: 1px solid #00ffff; 
+            padding: 15px; border-radius: 4px;
+
         }
 
         .search-input {
